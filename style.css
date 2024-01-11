@@ -1,17 +1,34 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 header{
     border-bottom: 1px solid black;
+    margin: 10px;
+    text-align: center;
   }
   
   main{
-    width: 800px;
+    max-width: 65%;
+    margin: 10px;
   }
   
   aside{
+    position: relative;
     width: 180px;
     border: 1px solid black;
+    right: -80vw;
+    text-align: center;
+  }
+  aside:active{
+    background-color: black;
+    color: white;
   }
   
   footer{
+    position: relative;
+    bottom: 0;
     background-color: black;
     color: white;
     width: 100%;
@@ -21,4 +38,9 @@ header{
     background-color: black;
     color: white;
     font-family: serif;
+  }
+  button:active{
+    background-color: white;
+    color: black;
+    text-colo
   }
